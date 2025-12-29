@@ -17,14 +17,13 @@ Créez un fichier `.env` (ou configurez vos variables d’environnement) et rens
 DATABRICKS_SERVER_HOSTNAME=dbc-*********
 DATABRICKS_HTTP_PATH=/sql/1.0/warehouses/*******
 DATABRICKS_ACCESS_TOKEN=YOUR_TOKEN
-
-
-▶️ Execution
+```
+##▶️ Execution
 Backend :
-
-bash
+```env 
 python app.py
+```
 Frontend :
 
-bash
+```env
 npx react-scripts start
